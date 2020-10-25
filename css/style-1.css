@@ -3,8 +3,18 @@
   The hash (#) signifies that it's styling an id
 */
 
+body{background-color:#ffffe6;}
+
+.block{background-color: #e6e6ff;}
+
+
 img{
 	max-width:75%;
+	length:auto;
+}
+
+.tiny{
+	max-width:1%;
 	length:auto;
 }
 
@@ -22,6 +32,7 @@ img{
 
 h4 {
 	font-family:courier;
+	color:#660066;
 }
 
 body {
@@ -37,8 +48,10 @@ body {
 }
 
 .nav-col{
-	color:green;
+	color:#660066;
 }
+
+/*getting horiz navi bar */
 
 #menu-outer {
 	height: 84px;
@@ -58,3 +71,9 @@ ul#horizontal-list {
 	ul#horizontal-list li {
 		display: inline;
 	}
+
+	.bgimage{
+		background-image: url("../img/landscape.jpeg");
+		background-repeat: repeat-x;
+	}
+

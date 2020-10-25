@@ -4,6 +4,9 @@
     <!--bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!--font awesome link-->
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"><!--load all styles -->
     <!-- CSS CDN-->
 
     <link rel="stylesheet" type="text/css" href="css/style-1.css">
@@ -12,38 +15,25 @@
   <body>
 
      <!-- Navi bar-->
+
 <div id="menu-outer">
   <div class="table">
+    <nav class="navbar navbar-dark" style="background-color: #b3b3ff;">
+      <div class="container">
     <ul id="horizontal-list">
-      <li><a href="#"><img src="images/list-item-1.gif" alt="list item 1" /></a></li>
-      <li><a href="#"><img src="images/list-item-2.gif" alt="list item 2" /></a></li>
-      <li><a href="#"><img src="images/list-item-3.gif" alt="list item 3" /></a></li>
-      <li><a href="#"><img src="images/list-item-4.gif" alt="list item 4" /></a></li>
+      <li><a class="nav-brand nav-col nav-toggle nav-active" href="test-3.html"><img class="tiny" src="img/matcha_tart.jpeg" alt="About Me"/>About Me</a></li>
+
+      <li><a class="nav-col nav-toggle" href="index2.html"><img class="tiny" src="img/bento.jpeg" alt="Blog Posts" />Blog Pots</a></li>
+
+      <li><a class="nav-col nav-toggle" href="#"><img class="tiny" src="img/feijoa.jpeg" alt="Projects" />Projects</a></li>
+
+      <li><a class="nav-col nav-toggle" href="#"><img class="tiny" src="img/shaved-ice.jpg" alt="Unconventional Truths" />Unconventional Truths</a></li>
     </ul>
   </div>
 </div>
 
 
     <ul>
-
-      <!--not used-->
-<div id="menu-outer">
-  <div class="table">
-<nav class="navbar navbar-dark bg-primary">
-      <div class="container">
-        <a class="navbar-brand nav-toggle" href="/">Tina Soh</a>
-        <ul id="horizontal-list" class="nav navbar-nav pull-right">
-          <li><a class="nav-item active nav-link nav-col" href="#" alt="list item 1">Profile</a>
-          </li>
-          <li><a class="av-item active nav-link nav-col" href="/" alt="list item 2">Projects</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-</div>
-
-<!--not used-->
 
 <!--navi end-->
 
@@ -55,16 +45,30 @@
         <div class="col-md-4">
           
           <!--first box-->
-          <div class="card extra-space text-center">
-            <div class="card-block">
+          <div class="card extra-space text-center"> <!-- insert bgimage here if you want backg image-->
+            <div class="card-block block">
               <p>
-              <img class="rounded-circle" src="img/TS.jpg"/>
+              <img class="rounded-circle backg" src="img/TS.jpg"/>
             </p>
               <h4 class="card-title">Tina Soh</h4>
               <p class="card-text">
                 I hate Mondays, work, everything!<br>
                 Everything I tell you!
               </p>
+              <div class="card-footer" style="background-color: #b3b3ff;">
+                <a>
+                <a href="https://www.linkedin.com/in/tina-soh-546bba115/"><i class="fa fa-linkedin-square nav-toggle"></i>
+              </a>
+              </a>
+              </a>
+              <a>
+               <a href="https://www.facebook.com/tina.soh/"><i class="fa fa-facebook-square nav-toggle"></i>
+               </a>
+              </a>
+              <a>
+                <i class="fa fa-spotify nav-toggle"></i>
+              </a>
+              </div>
             </div>
           </div>
 
@@ -76,13 +80,20 @@
           <!--second box-->
 
           <div class="card extra-space text-center">
-            <div class="card-block">
+            <div class="card-block block">
               <h4 class="card-title">Information</h4>
               <p class="card-text">
-                <p> London <br></p>
-                <i class="fa fa-twitter"></i>
-                <p> MSc Behavioural Science at the LSE <br></p>
-                <p> Foodie, yogi and enthusiastic sleeper <br> </p>
+                <p> 
+                  <i class="fa fa-map-marker"></i>
+                  London <br></p>
+                
+                <p> 
+                   <i class="fa fa-graduation-cap"></i>
+                   MSc Behavioural Science at the LSE <br></p>
+                
+                <p> 
+                  <i class="fa fa-heart"></i>
+                  Foodie, yogi and enthusiastic sleeper <br> </p>
               </p>
             </div>
           </div>
@@ -90,7 +101,7 @@
   <!--third box-->
 
           <div class="card extra-space text-center">
-            <div class="card-block">
+            <div class="card-block block">
               <h4 class="card-title">Skills</h4>
               <p class="card-text">
 
@@ -126,14 +137,14 @@
 
         <div class="col-md-8">
 
-          <div class="card extra-space text-center"/>
+          <div class="card extra-space block text-center"/>
           <h4> About Me </h4>
           <p class="text-left">
           I am a Grumpy Pug and I don't like anything in this life except from grumping all day long. Do you know the happy song? It says 'Cause I'm happy...' - Well I hate it. But I made my own version for that and I sing crying "Cause I'm grumpy"
           </p>
           </div>
 
-          <div class="card extra-space text-center"/>
+          <div class="card block extra-space text-center"/>
 
           <h4> Interests </h4>
           <p class="text-left">
@@ -154,8 +165,6 @@
           I'm the master of grumping. The one and only. Noone is like me. Noone can reach my level of awesomeness in grumping. Don't even try. Bitch please. <br>
           </p>
           </p>
-
-
 
 
         </div>
